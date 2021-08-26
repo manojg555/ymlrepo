@@ -1,0 +1,8 @@
+---
+- name: copy the file
+    copy:
+      src: /var/foo.txt
+      dest: /etc/foo.txt
+      mode: '0755'
+      user: foo
+      group: foo
